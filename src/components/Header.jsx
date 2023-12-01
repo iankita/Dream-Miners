@@ -3,7 +3,7 @@ import { FaTwitter ,FaDiscord} from "react-icons/fa";
 
 function Header() {
   return (
-    <div className='flex justify-between items-center h-[40px]'>
+    <div className='flex justify-between items-center h-[120px] border-b-2 border-red-800'>
       <div>
       <h1>Dream</h1>
       </div>
