@@ -3,7 +3,7 @@ import { FaTwitter ,FaDiscord} from "react-icons/fa";
 
 function Header() {
   return (
-    <div className='flex justify-between items-center h-[120px] border-b-2 border-red-800'>
+    <div className='flex justify-between items-center h-[120px] border-b-2 border-red-800 mx-auto'>
       <div>
       <h1>Dream</h1>
       </div>
@@ -11,16 +11,16 @@ function Header() {
       <div>
       <nav className='flex gap-x-6'>
         <ul className='flex gap-x-6'>
-            <li>HOME</li>
-            <li>MINTING</li>
-            <li>CHAMBER</li>
+            <li className='font-medium'>HOME</li>
+            <li className='font-medium'>MINTING</li>
+            <li className='font-medium'>CHAMBER</li>
         </ul>
       </nav>
       </div>
 
       <div className='flex gap-x-6'>
-        <FaTwitter/>
-        <FaDiscord/>
+        <FaTwitter className='text-xl'/>
+        <FaDiscord className='text-xl'/>
       </div>
     </div>
   )
